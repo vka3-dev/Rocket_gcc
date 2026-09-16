@@ -1,0 +1,39 @@
+{
+  "source_packages": [
+    "stitch_campus_pass_organizer_dashboard (1).zip",
+    "stitch_campus_pass_organizer_dashboard.zip"
+  ],
+  "pages": [
+    {
+      "role": "participant",
+      "source": "page_1_participant_profile",
+      "merged": "01-participant-profile"
+    },
+    {
+      "role": "participant",
+      "source": "page_2_browse_register_events",
+      "merged": "02-browse-register-events"
+    },
+    {
+      "role": "participant",
+      "source": "page_3_my_registered_events",
+      "merged": "03-my-registered-events"
+    },
+    {
+      "role": "organizer",
+      "source": "page_1_profile_page",
+      "merged": "04-organizer-profile"
+    },
+    {
+      "role": "organizer",
+      "source": "page_2_my_events_event_management",
+      "merged": "05-my-events-management"
+    },
+    {
+      "role": "organizer",
+      "source": "page_3_event_participants",
+      "merged": "06-event-participants"
+    }
+  ],
+  "shared_design_system": "stitch-ui/design-system/DESIGN.md"
+}
